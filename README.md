@@ -18,9 +18,10 @@ We were given a starter code, as a guide, to run the code through a loop one tim
 
 For analysis, here are screenshots of the original runtime for the Stocks Analysis project:
 
-https://github.com/lllohr/Refactor-VBA/blob/main/Resources/Stocks_Analysis_2018.png
+https://github.com/lllohr/Refactor-VBA/blob/main/Output_2018.png
 
-https://github.com/lllohr/Refactor-VBA/blob/main/Resources/Stocks_Anaysis_2017.png
+
+https://github.com/lllohr/Refactor-VBA/blob/main/Output_2017.png
 
 
 ### Challenges and Difficulties Encountered
@@ -45,9 +46,9 @@ Fortuitously, the code rendered the correct values and was faster the the Stocks
 
 Here is a run how fast the refactored code was with the above code lines: 
 
-https://github.com/lllohr/Refactor-VBA/blob/main/Resources/VBA_Challenge_2018.png
+https://github.com/lllohr/Refactor-VBA/blob/main/VBA_Challenge_2018.png
 
-https://github.com/lllohr/Refactor-VBA/blob/main/Resources/VBA_Challenge_2017.png
+https://github.com/lllohr/Refactor-VBA/blob/main/Stocks_Anaysis_2017.png
 
 With the replacement with the following code, my results were slightly slower than when I set the volume to zero, however, I feel like it was the proper way to write the code without running into some inadvertent errors. The code did break my brain, going through the nested if statements.
 
@@ -76,9 +77,9 @@ With the replacement with the following code, my results were slightly slower th
 
 The original screenshots were included in the project to show the speed difference between the code. Here is the runtime after modifying the code:
 
-https://github.com/lllohr/Refactor-VBA/blob/main/Resources/VBA_Challenge_2018Mod.png
+https://github.com/lllohr/Refactor-VBA/blob/main/VBA_Challenge_2018Mod.png
 
-https://github.com/lllohr/Refactor-VBA/blob/main/Resources/VBA_Challenge_2017Mod.png
+https://github.com/lllohr/Refactor-VBA/blob/main/VBA_Challenge_2017Mod.png
 
 Another challenge I had was that my dates in the 2017 and 2018 sheets had somehow been corrupted when they were copied. I hadn't noticed it until the end of the project, but it had some formatting issues. The solution was to replace the corrupted sheets with clean data and run the analysis.
 
@@ -90,9 +91,9 @@ From what I can conclude, the code was faster and more efficient after refactori
 
 I was able to create the same results as I did previously in the first project:
 
-https://github.com/lllohr/Refactor-VBA/blob/main/Resources/Output_2017.png
+https://github.com/lllohr/Refactor-VBA/blob/main/Output_2017.png
 
-https://github.com/lllohr/Refactor-VBA/blob/main/Resources/Output_2018.png
+https://github.com/lllohr/Refactor-VBA/blob/main/Output_2018.png
 
 I think a disadvantage to refactoring might be that you can take good code that works and potentially break something that isn't broken. Every time we alter code, we have the potential for mistakes. In a real world example, there have been "fixes" sent as updates to applications on my phone. In many instances, I was not encountering any issues prior to the fix and have new issues emerge once the fix is applied.
 
