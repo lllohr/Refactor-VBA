@@ -18,10 +18,10 @@ We were given a starter code, as a guide, to run the code through a loop one tim
 
 For analysis, here are screenshots of the original runtime for the Stocks Analysis project:
 
-![Stocks_Analysis_2018](https://github.com/lllohr/Refactor-VBA/blob/main/Output_2018.png)
+![Stocks_Analysis_2018](https://github.com/lllohr/Refactor-VBA/blob/main/Stocks_Analysis_2018.png)
 
 
-![Stocks_Analysis_2017](https://github.com/lllohr/Refactor-VBA/blob/main/Output_2017.png)
+![Stocks_Analysis_2017](https://github.com/lllohr/Refactor-VBA/blob/main/Stocks_Anaysis_2017.png)
 
 
 ### Challenges and Difficulties Encountered
@@ -48,7 +48,7 @@ Here is a run how fast the refactored code was with the above code lines:
 
 ![VBA_Challenge_2018.png](https://github.com/lllohr/Refactor-VBA/blob/main/VBA_Challenge_2018.png)
 
-![VBA_Challenge_2017.png](https://github.com/lllohr/Refactor-VBA/blob/main/Stocks_Anaysis_2017.png)
+![VBA_Challenge_2017.png](https://github.com/lllohr/Refactor-VBA/blob/main/VBA_Challenge_2017.png)
 
 With the replacement with the following code, my results were slightly slower than when I set the volume to zero, however, I feel like it was the proper way to write the code without running into some inadvertent errors. The code did break my brain, going through the nested if statements.
 
