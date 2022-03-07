@@ -89,6 +89,10 @@ Another challenge I had was that my dates in the 2017 and 2018 sheets had someho
 
 From what I can conclude, the code was faster and more efficient after refactoring. I believe the benefits of refactoring are that tasks can be combined from multiple lines of code into one of two lines of code. Additionally, like in this instance, it used less memory, I assume to run this through the second way. We were able to think about another way to do the same task quicker and more efficiently. The advantage of refactoring, is that the code is already written, we know it works! We can ask ourselves, "How can we perform this better?" 
 
+I was able to create the same results as I did previously in the first project:
+
+https://github.com/lllohr/Refactor-VBA/blob/main/Resources/Output_2017.png
+
 I think a disadvantage to refactoring might be that you can take good code that works and potentially break something that isn't broken. Every time we alter code, we have the potential for mistakes. In a real world example, there have been "fixes" sent as updates to applications on my phone. In many instances, I was not encountering any issues prior to the fix and have new issues emerge once the fix is applied.
 
 - What can you conclude about the project? What are some advantages and disadvantages of the original and refactored VBA script?
